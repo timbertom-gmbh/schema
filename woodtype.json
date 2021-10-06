@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Baumart / Holzart",
+  "description": "",
+  "type": "string",
+  "enum": [
+    "NDH","LBH","SLBH","SLBW","SONB",
+    "BU","AH","BI","ES","EI","VK","FI","GFI","OFI","SFI","SWFI","EFI","BFI",
+    "WFI","SOFI","KIE","KI","BKI","SKI","RKI","ZKI","WKI","MKI","GKI","SOKI",
+    "TA","WTA","ATA","CTA","KTA","NITA","NOTA","VTA","SOTA","LA","ELA","JLA",
+    "SLA","DG","LEB","HT","MAM","EIB","SZ","SEI","TEI","REI","ZEI","SUEI",
+    "QUE","GES","WES","FRA","HBU","BAH","SAH","FAH","EAH","SIAH","ACE","LI",
+    "WLI","SLI","TIL","ROB","AKZ","UL","BUL","FUL","FLU","ULM","RKA","EKA",
+    "KA","MAU","NUS","WNU","SNU","JUG","STE","PLA","APL","SOLH","GBI","MBI",
+    "BI","ERL","SER","WER","GER","ALN","PAP","ZPA","SPA","SPAH","GPA","WPA",
+    "BPA","BPAH","POP","SOR","SSO","VB","ELS","SPE","MEB","WEI","SWEI","KIR",
+    "GTK","STK","PRU","ZWE","HIC","FAU","WOB","WAP","WBI","HAS","GOT","STR",
+    "FITA",
+    "XY"
+  ]
+}

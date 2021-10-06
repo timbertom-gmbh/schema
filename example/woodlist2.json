@@ -1,0 +1,10 @@
+{
+  "uuid": "74809615-3f80-4a13-abf9-a9403f5a7093",
+  "identifier": "123",
+  "business_year": 2021,
+  "protocoll_volume": 6.21,
+  "buyer_volume": 5.98,
+  "includes_wood_types": ["FI", "BU"],
+  "includes_usages": ["FL", "IL"],
+  "ref_cut": "038a8636-dde2-49b1-9a7f-db774f5b5c0d"
+}

@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Maßnahme",
+  "description": "Eine Maßnahme",
+  "type": "object",
+  "properties": {
+    "uuid": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "identifier": {
+      "type": "string",
+      "description": "Auftragsnummer"
+    }
+  }
+}

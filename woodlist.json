@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Holzliste",
+  "description": "Eine Holzliste ist eine Sammlung von Poltern",
+  "type": "object",
+  "properties": {
+    "uuid": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "identifier": {
+      "type": "string",
+      "description": "Innerhalb eines Geschäftjahres eindeutiger Bezeichner für eine Holzliste"
+    },
+    "business_year": {
+      "type": "integer",
+      "description": "Geschäftsjahr",
+      "minimum": 0
+    },
+    "protocoll_volume": {
+      "type": "number",
+      "description": "Waldmaß/Schätzmaß",
+      "minimum": 0
+    },
+    "buyer_volume": {
+      "type": "number",
+      "description": "Werksmaß",
+      "minimum": 0
+    },
+    "includes_wood_types": {
+      "type": "array",
+      "items": {
+        "$ref": "./woodtype.json"
+      }
+    },
+    "includes_usages": {
+      "type": "array",
+      "items": {
+        "$ref": "./usage.json"
+      }
+    },
+    "ref_cut": {
+      "type": "string",
+      "format": "uuid",
+      "description": "UUID eines zugehörigen Hiebs"
+    }
+  },
+  "required": [
+    "uuid", "identifier"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Hieb",
+  "description": "Ein Hieb ist eine Sammlung an Maßnahmen",
+  "type": "object",
+  "properties": {
+    "uuid": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "identifier": {
+      "type": "string",
+      "description": "Innerhalb eines Geschäftjahres eindeutiger Bezeichner für einen Hieb"
+    }
+  }
+}
