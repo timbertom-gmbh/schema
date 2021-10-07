@@ -39,6 +39,12 @@
         "$ref": "./usage.json"
       }
     },
+    "includes_qualities": {
+      "type": "array",
+      "items": {
+        "$ref": "./quality.json"
+      }
+    },
     "ref_cut": {
       "type": "string",
       "format": "uuid",

@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Qualität",
+  "description": "",
+  "type": "string",
+  "enum": [
+    "N", "IN", "IF", "IK", "FK", "NF", "NFK",
+    "A", "B", "C", "D",
+    "AB", "BC", "CD", "ABC", "BCD", 
+    "AK", "BK",
+    "O", "OA"
+  ]
+}

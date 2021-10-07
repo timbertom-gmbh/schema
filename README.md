@@ -16,6 +16,29 @@
 |IG|Industrie Gewichtholz|
 |S|Sonstiges|
 
+## Qualiäten
+
+|Kürzel|Name|
+|---|---|
+|N|Normal|
+|IN|Normal|
+|IF|Fehlerhaft
+|IK|Krank|
+|FK|Fehlerhaft/Krank|
+|NF|Normal/Fehlerhaft|
+|NFK|Normal/Fehlerhaft/Krank|
+|A|A|
+|B|B|
+|C|C|
+|D|D|
+|AB|AB|
+|BC|BC|
+|CD|CD|
+|ABC|ABC|
+|BCD|BCD|
+|O|Ohne Qualität|
+|OA|Ohne Qualitätsausscheidung|
+
 ## Baumarten
 
 |Kürzel|Name|
